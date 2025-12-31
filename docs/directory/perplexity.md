@@ -1,31 +1,30 @@
 ---
 layout: page
 title: Perplexity
-category: chatbots
 ---
 
-<div class="flex flex-col lg:flex-row gap-8 mt-4">
-  <div class="flex-1">
-    <h1 class="text-4xl font-bold text-slate-900 dark:text-white mb-4">Perplexity</h1>
-    <p class="text-lg text-slate-600 dark:text-slate-400 mb-6">AI-powered search engine for instant answers.</p>
+<div style="display: flex; flex-direction: row; gap: 2rem; margin-top: 2rem; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px;">
+    <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem;">Perplexity</h1>
+    <p style="font-size: 1.25rem; color: var(--vp-c-text-2); margin-bottom: 1.5rem;">AI-powered search engine for instant answers.</p>
     
-    <div class="space-y-4">
-      <h2 class="text-xl font-semibold">Key Features</h2>
-      <ul class="list-disc list-inside text-slate-700 dark:text-slate-300">
+    <div style="margin-top: 2rem;">
+      <h2 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Key Features</h2>
+      <ul style="list-style-type: disc; padding-left: 1.5rem; color: var(--vp-c-text-2);">
         <li>Advanced AI capabilities</li>
         <li>User-friendly interface</li>
         <li>Industry-leading performance</li>
       </ul>
     </div>
 
-    <div class="mt-8">
-      <a href="#" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors">Visit Website</a>
+    <div style="margin-top: 2.5rem;">
+      <a href="#" style="display: inline-block; background-color: var(--vp-c-brand-1); color: white; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 500; text-decoration: none;">Visit Website</a>
     </div>
   </div>
   
-  <div class="lg:w-1/2">
-    <div class="bg-slate-100 dark:bg-slate-800 rounded-xl aspect-video flex items-center justify-center border-2 border-dashed border-slate-300 dark:border-slate-600">
-      <span class="text-slate-400">Screenshot Placeholder</span>
+  <div style="flex: 1; min-width: 300px;">
+    <div class="screenshot-box">
+      <span style="color: var(--vp-c-text-3);">Screenshot Placeholder</span>
     </div>
   </div>
 </div>
