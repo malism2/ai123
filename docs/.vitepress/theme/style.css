@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --vp-c-brand-1: #6750A4;
+  --vp-c-brand-2: #EADDFF;
+  --vp-home-hero-name-color: #6750A4;
+}
+
+.m3-card {
+  @apply bg-surface-variant text-on-surface-variant p-4 rounded-m3 shadow-sm hover:shadow-md transition-shadow;
+}
+
+.m3-button {
+  @apply bg-primary text-on-primary px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity;
+}
