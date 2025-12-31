@@ -1,25 +1,25 @@
-# AI 技术播客
+# AI Tech Podcasts
 
-收听全球最前沿的 AI 讨论。
+Listen to the most cutting-edge AI discussions from around the globe.
 
 <div class="space-y-6 mt-8">
 
 <div class="m3-card flex flex-col md:flex-row gap-6">
   <div class="flex-1">
     <h3 class="text-primary font-bold text-xl mb-2">The AI Podcast (NVIDIA)</h3>
-    <p class="text-sm mb-4">由 NVIDIA 主办，探讨 AI 如何改变我们的生活和工作方式。</p>
-    <a href="#" class="text-primary font-medium hover:underline">立即收听 →</a>
+    <p class="text-sm mb-4">Hosted by NVIDIA, exploring how AI is changing the way we live and work.</p>
+    <a href="#" class="text-primary font-medium hover:underline">Listen Now →</a>
   </div>
-  <div class="text-xs text-outline">更新于：2025-12-30</div>
+  <div class="text-xs text-outline">Updated: 2025-12-30</div>
 </div>
 
 <div class="m3-card flex flex-col md:flex-row gap-6">
   <div class="flex-1">
     <h3 class="text-primary font-bold text-xl mb-2">Hard Fork (New York Times)</h3>
-    <p class="text-sm mb-4">探讨科技行业的重大变化，包括 AI 领域的最新动态。</p>
-    <a href="#" class="text-primary font-medium hover:underline">立即收听 →</a>
+    <p class="text-sm mb-4">Exploring the big changes in the tech industry, including the latest in AI.</p>
+    <a href="#" class="text-primary font-medium hover:underline">Listen Now →</a>
   </div>
-  <div class="text-xs text-outline">更新于：2025-12-28</div>
+  <div class="text-xs text-outline">Updated: 2025-12-28</div>
 </div>
 
 </div>

@@ -3,35 +3,27 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AI Nav",
   description: "Global AI Directory, Podcasts, and News",
+  lang: 'en-US',
   themeConfig: {
     nav: [
-      { text: '首页', link: '/' },
-      { text: 'AI 目录', link: '/directory/' },
-      { text: 'AI 播客', link: '/podcasts/' },
-      { text: 'AI 新闻', link: '/news/' }
+      { text: 'Home', link: '/' },
+      { text: 'Podcasts', link: '/podcasts/' },
+      { text: 'News', link: '/news/' }
     ],
     sidebar: {
-      '/directory/': [
-        {
-          text: 'AI 目录',
-          items: [
-            { text: '全部工具', link: '/directory/' }
-          ]
-        }
-      ],
       '/podcasts/': [
         {
-          text: 'AI 播客',
+          text: 'AI Podcasts',
           items: [
-            { text: '最新播客', link: '/podcasts/' }
+            { text: 'Latest Episodes', link: '/podcasts/' }
           ]
         }
       ],
       '/news/': [
         {
-          text: 'AI 新闻',
+          text: 'AI News',
           items: [
-            { text: '每日新闻', link: '/news/' }
+            { text: 'Daily Updates', link: '/news/' }
           ]
         }
       ]

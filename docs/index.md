@@ -1,23 +1,38 @@
 ---
-layout: home
-
-hero:
-  name: "AI Nav"
-  text: "发现全球最顶尖的 AI 工具"
-  tagline: "类似 Toolify 的 AI 导航，包含播客与新闻"
-  actions:
-    - theme: brand
-      text: 浏览 AI 目录
-      link: /directory/
-    - theme: alt
-      text: AI 新闻
-      link: /news/
-
-features:
-  - title: 全球 AI 目录
-    details: 汇集全球最前沿的 AI 工具，支持分类浏览与详情查看。
-  - title: AI 技术播客
-    details: 深度对话 AI 领域的专家，掌握行业动态。
-  - title: AI 每日新闻
-    details: 实时更新 AI 行业资讯，不错过任何重大突破。
+layout: page
 ---
+
+# AI Directory
+
+Discover the world's best AI tools and services.
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+
+<a href="/directory/chatgpt" class="m3-card no-underline block">
+  <h3 class="text-primary font-bold text-xl mb-2">ChatGPT</h3>
+  <p class="text-sm">Powerful conversational AI developed by OpenAI, supporting a wide range of tasks.</p>
+  <span class="inline-block mt-4 text-xs bg-primary-container text-on-primary-container px-2 py-1 rounded">Chatbot</span>
+</a>
+
+<a href="/directory/claude" class="m3-card no-underline block">
+  <h3 class="text-primary font-bold text-xl mb-2">Claude</h3>
+  <p class="text-sm">AI assistant developed by Anthropic, known for safety and long-context processing.</p>
+  <span class="inline-block mt-4 text-xs bg-primary-container text-on-primary-container px-2 py-1 rounded">Chatbot</span>
+</a>
+
+<a href="#" class="m3-card no-underline block">
+  <h3 class="text-primary font-bold text-xl mb-2">Midjourney</h3>
+  <p class="text-sm">Leading AI image generator that creates stunning visuals from text prompts.</p>
+  <span class="inline-block mt-4 text-xs bg-primary-container text-on-primary-container px-2 py-1 rounded">Image Generation</span>
+</a>
+
+</div>
+
+<style>
+.m3-card {
+  @apply bg-surface-variant text-on-surface-variant p-6 rounded-m3 shadow-sm hover:shadow-md transition-all duration-300;
+}
+.m3-card:hover {
+  transform: translateY(-4px);
+}
+</style>
