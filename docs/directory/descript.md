@@ -1,13 +1,13 @@
 ---
 layout: page
-title: ChatGPT
-category: chatbots
+title: Descript
+category: audio
 ---
 
 <div class="flex flex-col lg:flex-row gap-8 mt-4">
   <div class="flex-1">
-    <h1 class="text-4xl font-bold text-slate-900 dark:text-white mb-4">ChatGPT</h1>
-    <p class="text-lg text-slate-600 dark:text-slate-400 mb-6">Leading conversational AI by OpenAI.</p>
+    <h1 class="text-4xl font-bold text-slate-900 dark:text-white mb-4">Descript</h1>
+    <p class="text-lg text-slate-600 dark:text-slate-400 mb-6">Simple, powerful video and podcast editing.</p>
     
     <div class="space-y-4">
       <h2 class="text-xl font-semibold">Key Features</h2>

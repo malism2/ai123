@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "AI Nav",
-  description: "Global AI Directory, Podcasts, and News",
+  description: "The Ultimate Global AI Directory",
   lang: 'en-US',
   themeConfig: {
     nav: [
@@ -10,23 +10,20 @@ export default defineConfig({
       { text: 'Podcasts', link: '/podcasts/' },
       { text: 'News', link: '/news/' }
     ],
-    sidebar: {
-      '/podcasts/': [
-        {
-          text: 'AI Podcasts',
-          items: [
-            { text: 'Latest Episodes', link: '/podcasts/' }
-          ]
-        }
-      ],
-      '/news/': [
-        {
-          text: 'AI News',
-          items: [
-            { text: 'Daily Updates', link: '/news/' }
-          ]
-        }
-      ]
-    }
+    sidebar: [
+      {
+        text: 'Categories',
+        items: [
+          { text: 'All Tools', link: '/' },
+          { text: 'Chatbots', link: '/#chatbots' },
+          { text: 'Image Generation', link: '/#image' },
+          { text: 'Video Generation', link: '/#video' },
+          { text: 'Writing & SEO', link: '/#writing' },
+          { text: 'Coding Assistant', link: '/#coding' },
+          { text: 'Audio & Music', link: '/#audio' },
+          { text: 'Productivity', link: '/#productivity' }
+        ]
+      }
+    ]
   }
 })

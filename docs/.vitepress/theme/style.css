@@ -3,15 +3,37 @@
 @tailwind utilities;
 
 :root {
-  --vp-c-brand-1: #6750A4;
-  --vp-c-brand-2: #EADDFF;
-  --vp-home-hero-name-color: #6750A4;
+  /* 科技感配色：深邃蓝与极简白 */
+  --vp-c-brand-1: #0066FF;
+  --vp-c-brand-2: #3385FF;
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f8f9fa;
+  --vp-c-bg-mute: #f1f3f5;
+  --vp-c-text-1: #1a1a1a;
+  --vp-c-text-2: #4a4a4a;
+  --vp-home-hero-name-color: #0066FF;
+}
+
+.dark {
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-soft: #1e293b;
+  --vp-c-bg-mute: #334155;
+  --vp-c-text-1: #f8fafc;
+  --vp-c-text-2: #cbd5e1;
 }
 
 .m3-card {
-  @apply bg-surface-variant text-on-surface-variant p-4 rounded-m3 shadow-sm hover:shadow-md transition-shadow;
+  @apply bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 p-5 rounded-xl shadow-sm hover:shadow-xl hover:border-blue-500 transition-all duration-300;
 }
 
-.m3-button {
-  @apply bg-primary text-on-primary px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity;
+.sidebar-item {
+  @apply flex items-center px-4 py-2 text-sm font-medium rounded-lg cursor-pointer transition-colors;
+}
+
+.sidebar-item.active {
+  @apply bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400;
+}
+
+.sidebar-item:not(.active) {
+  @apply text-slate-600 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-700/50;
 }
